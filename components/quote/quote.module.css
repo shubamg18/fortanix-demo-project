@@ -1,0 +1,38 @@
+.container {
+    z-index: 20;
+    position: relative;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote .container {
+    max-width: 1024px;
+}
+
+.quote {
+    background-color: #6c6e9a;
+    position: relative;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    background-position: center;
+    background-size: cover;
+    padding: 36px 0;
+}
+
+.quoteAuthor {
+    text-align: right;
+}
+
+.quoteDescription {
+    text-align: center;
+}
+
+@media (min-width: 640px) {
+    .container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
